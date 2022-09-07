@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: rgba(157, 143, 163, 0.942);
   margin: 0;
 }
 
@@ -10,45 +10,45 @@ height: 50px;
 justify-content: space-between;
 padding: 10px;
 display: flex;
-box-shadow: khaki;
+box-shadow: khaki 15px 0px 4px;
 margin-bottom: 60px;
 }
 
 .container {
-  margin: 600px;
-  height: 600px;
+  height:800px;
+  width:100%;
   margin-top: 50px;
-  justify-content:center;
       cursor:grabbing;
-      flex-wrap: wrap;
-      justify-items:center;
 display:flex;
+flex-wrap: wrap;
 }
 
 .box {
-  background-color:#555353;
+  background-color:#9095b6;
   width: 300px;
   height: 450px;
 display: flex;
-color: aliceblue;
 opacity: 0.5;
-box-shadow: red 5px 10px 5px;
-font-size: 12px;
-flex-direction: column;
-border-radius: 5%;
 margin: 100px;
+font-size: 12px;
+border-radius: 5%;
+color: aliceblue;
 align-items: center;
+flex-direction: column;
+box-shadow: rgb(125, 73, 139) 5px 10px 5px; font-family: 'Schoolbell', cursive; 
 }
 
-.box:hover{
+.box:hover {
   opacity: 1;
+  width: 350px;
+  height: 500px;
 }
 
 
 
-.box img{
-  width: 300px;%;
-  height: 70%;
+.box img {
+  width: 300px;;
+  height:70%;
   border-radius: 20px;
 }
 
@@ -60,5 +60,49 @@ align-items: center;
   top: 0;
   width: 100%;
   height: 12%;
-  box-shadow: rgba(178, 21, 21, 0.35) 0px 5px 1px;
+  box-shadow: rgba(244, 236, 236, 0.964) 0px 5px 1px;
+}
+
+.box2 {
+background-color: #9095b6;
+width: 150vh;
+height: 125vh;
+display: flex;
+color: aliceblue;
+font-size: 12px;
+border-radius: 5%;
+margin: 100px;
+opacity: 0.9;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+font-size: larger;
+flex-direction: column;
+font-family: 'Schoolbell', cursive; 
+box-shadow: rgb(188, 181, 181) 5px 10px 5px;
+font-family: 'El Messiri', sans-serif;
+ }
+
+
+.box2:hover{
+  opacity: 0.95;
+
+}
+ 
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(246, 241, 239);
+  color: white;
+  background-color: black;
+  width: 100%; 
+  height: 90px;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  box-shadow: rgb(195, 44, 61) 51px 0px 15px;
+  margin-bottom: 60px;
 }

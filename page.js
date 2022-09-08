@@ -7,5 +7,3 @@ console.log(name)
 
 
 
-
-
